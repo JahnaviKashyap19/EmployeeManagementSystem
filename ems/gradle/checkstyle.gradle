@@ -1,0 +1,17 @@
+apply plugin: 'checkstyle'
+
+checkstyle {
+    toolVersion '8.17'
+    configFile file("config/checkstyle/google-ish-checks.xml")
+    ignoreFailures = false
+}
+checkstyleMain {
+    source ='src/main/java'
+}
+tasks.withType(Checkstyle) {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+//    mustRunAfter(tasks.withType(test))
+}

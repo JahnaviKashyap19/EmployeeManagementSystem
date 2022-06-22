@@ -1,0 +1,31 @@
+2022-06-13 08:53:21,212 [INFO] com.poc.ems.EmsApplication [restartedMain] Starting EmsApplication using Java 11.0.15.1 on W-HDCC0361N2 with PID 16704 (C:\Users\jkashya\OneDrive - Gap\Desktop\POC\ems\build\classes\java\main started by Jkashya in C:\Users\jkashya\OneDrive - Gap\Desktop\POC\ems)
+2022-06-13 08:53:21,228 [INFO] com.poc.ems.EmsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-06-13 08:53:21,665 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-13 08:53:21,665 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-13 08:53:24,678 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-13 08:53:24,836 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 133 ms. Found 3 JPA repository interfaces.
+2022-06-13 08:53:27,771 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-06-13 08:53:27,807 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-06-13 08:53:27,808 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-13 08:53:28,206 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-06-13 08:53:28,208 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6535 ms
+2022-06-13 08:53:28,298 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-06-13 08:53:28,916 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-06-13 08:53:28,953 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/fileDb'
+2022-06-13 08:53:29,467 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-13 08:53:29,606 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-13 08:53:30,180 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-13 08:53:30,728 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-13 08:53:31,892 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-13 08:53:31,909 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-13 08:53:32,969 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-13 08:53:35,034 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-06-13 08:53:35,093 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-13 08:53:35,112 [INFO] com.poc.ems.EmsApplication [restartedMain] Started EmsApplication in 14.998 seconds (JVM running for 20.774)
+2022-06-13 08:54:46,242 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-13 08:54:46,243 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] Initializing Servlet 'dispatcherServlet'
+2022-06-13 08:54:46,245 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] Completed initialization in 2 ms
+2022-06-13 08:55:53,682 [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-4] Init duration for springdoc-openapi is: 574 ms
+2022-06-13 08:56:06,923 [INFO] com.poc.ems.controller.EmployeeController [http-nio-8080-exec-1] Getting Name of Manager of Employee with employee_id = 1
+2022-06-13 08:56:20,799 [INFO] com.poc.ems.controller.EmployeeController [http-nio-8080-exec-6] Getting Name of Manager of Employee with employee_id = 2
+2022-06-13 08:56:28,967 [INFO] com.poc.ems.controller.EmployeeController [http-nio-8080-exec-7] Getting Name of Manager of Employee with employee_id = 3
